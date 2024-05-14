@@ -3,7 +3,9 @@ An Android app developed in Java using Android Studio that displays the nearest 
 
 ## App Screenshots
 
-<img src="https://github.com/yassinemh3/Charging_Stations_App/assets/108351375/1c4fb785-7e60-491f-add5-6c6bd45d1ac7" width="300">
-<img src="https://github.com/yassinemh3/Charging_Stations_App/assets/108351375/863cd5cd-4d70-473c-8a88-5b6927af32a9" width="300">
-<img src="https://github.com/yassinemh3/Charging_Stations_App/assets/108351375/48ed594a-ea0c-4085-ba22-883e185b9268" width="300">
-<img src="https://github.com/yassinemh3/Charging_Stations_App/assets/108351375/f2cbc679-148d-425a-a008-26bf83278e69" width="300">
+<img src="https://github.com/yassinemh3/Charging_Stations_App/assets/108351375/5f7233a7-41c7-40f6-ae13-e97b060ad439" width="300">
+<img src="https://github.com/yassinemh3/Charging_Stations_App/assets/108351375/73e6dcbd-c02e-4f3f-9193-05dae711cd33" width="300">
+<img src="https://github.com/yassinemh3/Charging_Stations_App/assets/108351375/3e5a1e48-35ae-4af4-9dd7-a2b095c81af6" width="300">
+<img src="https://github.com/yassinemh3/Charging_Stations_App/assets/108351375/e0c8ae07-a20e-40db-b0e3-27c839464f73" width="300">
+
+
