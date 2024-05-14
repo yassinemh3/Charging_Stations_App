@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/teal_200"
+    android:id="@+id/body_container"
+    tools:context=".MapFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/map_fragment"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MapsActivity" />
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/idSearchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#BFBFBF"
+        android:elevation="5dp"
+        app:iconifiedByDefault="false"
+        android:layout_alignParentTop="true"
+        app:queryHint="Search Here" />
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/distance_slider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/idSearchView"
+        android:layout_alignEnd="@+id/idSearchView"
+        android:contentDescription="@string/slider_desc"
+        android:value="2.0"
+        android:valueFrom="1.0"
+        android:valueTo="10.0"
+        android:layout_marginTop="60dp"
+        android:layout_alignBaseline="@+id/idSearchView"
+        app:thumbRadius="15dp"
+        android:stepSize="1.0"/>
+
+    <com.google.android.material.progressindicator.CircularProgressIndicator
+       android:id="@+id/data_progress_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:indicatorSize="50dp"
+        android:indeterminate="true"
+        android:animateLayoutChanges="true"
+        />
+
+
+</RelativeLayout>

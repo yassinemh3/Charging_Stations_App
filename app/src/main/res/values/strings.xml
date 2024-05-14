@@ -1,0 +1,20 @@
+<resources>
+    <string name="project_name">E-Eichhoernchen</string>
+    <string name="menu_map">Map</string>
+    <string name="example_string">lorem ipsum</string>
+    <string name="shared_preferences">E-Eichhoernchen</string>
+    <string name="filename">stationData.json</string>
+    <string name="report_button">report</string>
+    <string name="report_question">Do you really want to report this station?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="menu_favorite">Favoriten</string>
+    <string name="menu_list">List</string>
+    <string name="driver">Autofahrer</string>
+    <string name="technician">Techniker</string>
+    <string name="app_name">E-Eichhörchen</string>
+    <string name="continue_as">Fortfahren als:</string>
+    <string name="icon_description" />
+    <string name="menu_repair_history">Verlauf</string>
+    <string name="slider_desc">distance</string>
+</resources>
